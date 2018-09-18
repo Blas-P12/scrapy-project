@@ -1,0 +1,36 @@
+*.txt
+*.out
+*.pyc
+*.jpg
+*.png
+*.dia
+*.sublime-project
+*.sublime-workspace
+
+# Hidden files
+!.htaccess
+
+#Config
+application/config/config.local.php
+application/config/database.local.php
+
+#NetBeans
+nbproject/
+
+# PHP Storm, other java IDE's
+.idea/
+
+#Eclipse
+license.txt
+.buildpath
+.project
+.settings
+
+#Other
+/application/logs
+/application/controllers/test.php
+/application/config/database.php
+/webroot/img
+/webroot/webshoots
+/webroot/emails_logos
+!/webroot/img/
